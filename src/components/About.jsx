@@ -12,8 +12,7 @@ export default function About() {
         Alongside mechanical engineering and CAD, I work with Python, C++, MATLAB, OpenFOAM,
         Arduino, web technologies, and computational tools. I've participated in Smart India
         Hackathon, IIT-level hackathons, and inter-college competitions, and I bring experience in
-        financial management and team leadership through roles as Finance Lead of IIC and Finance
-        Lead at RoboMotus.
+        financial management and team leadership through roles as   Finance Lead at RoboMotus.
       </p>
     </section>
   );
