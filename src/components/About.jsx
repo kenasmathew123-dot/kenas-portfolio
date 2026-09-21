@@ -1,14 +1,14 @@
 export default function About() {
   return (
     <section id="about" className="px-4 sm:px-8 py-16 sm:py-24 max-w-3xl mx-auto">
-      <h2 className="text-2xl sm:text-3xl font-bold mb-6">About Me</h2>
-      <p className="text-gray-300 leading-relaxed mb-4 text-sm sm:text-base">
+      <h2 className="text-3xl sm:text-4xl font-bold mb-6">About Me</h2>
+      <p className="text-gray-300 leading-relaxed mb-4 text-base sm:text-lg">
         I am currently pursuing a B.Tech in Mechanical Engineering at Jyothi Engineering College,
         with an expected graduation year of 2028. My primary interests lie in CFD, computational
         mechanics, FEA, robotics, automation, quantum mechanics, quantum computing, mathematical
         modelling, engineering simulation, and machine learning.
       </p>
-      <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
+      <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
         Alongside mechanical engineering and CAD, I work with Python, C++, MATLAB, OpenFOAM,
         Arduino, web technologies, and computational tools. I've participated in Smart India
         Hackathon, IIT-level hackathons, and inter-college competitions, and I bring experience in

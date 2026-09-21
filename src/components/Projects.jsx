@@ -10,15 +10,15 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className="px-4 sm:px-8 py-16 sm:py-24 max-w-5xl mx-auto">
-      <h2 className="text-2xl sm:text-3xl font-bold mb-10">Featured Projects</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold mb-10">Featured Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((p) => (
           <div key={p.title} className="border border-white/10 rounded-xl p-6 hover:border-accent transition">
-            <h3 className="font-semibold text-base sm:text-lg mb-2">{p.title}</h3>
-            <p className="text-xs sm:text-sm text-gray-400 mb-4">{p.desc}</p>
+            <h3 className="font-semibold text-lg sm:text-xl mb-2">{p.title}</h3>
+            <p className="text-sm sm:text-base text-gray-400 mb-4">{p.desc}</p>
             <div className="flex gap-2 flex-wrap">
               {p.tags.map((t) => (
-                <span key={t} className="text-xs bg-accent/20 text-accent px-2 py-1 rounded">{t}</span>
+                <span key={t} className="text-xs sm:text-sm bg-accent/20 text-accent px-2 py-1 rounded">{t}</span>
               ))}
             </div>
           </div>
